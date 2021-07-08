@@ -7,10 +7,52 @@
     .container{
         max-width: 720px;
     }
+
+    .header {
+        &__wrapper {
+            grid-template-columns: 201px 406px 112px;
+        }
+        &__title{
+            font-size: 28px;
+        }
+        a {
+            font-size: 11px;
+        }
+        &__btn {
+            margin-left: 10px;
+        }
+    }
+    
+    .promo {
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 30px;
+        }
+    }
 }
 @media (max-width:768px) {
     .container{
         max-width: 540px;
+    }
+
+    .header {
+        &__nav {
+            display: none;
+        }
+        &__btn {
+            display: none;
+        }
+    }
+
+    .promo{
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 25px;
+        }
     }
 }
 @media (max-width:576px) {
