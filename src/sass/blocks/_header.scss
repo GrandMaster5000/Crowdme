@@ -1,0 +1,95 @@
+.header {
+    min-height: 85px;
+    padding-top: 21px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 211px 540px 100px;
+        justify-content: space-between;
+    }
+    &__cover {
+        display: flex;
+    }
+    &__wrapper_logo {
+        width: 33px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__logo_elem1 {
+        width: 7px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: #8fc63d
+    }
+    &__logo_elem2 {
+        width: 7px;
+        height: 36px;
+        border-radius: 4px;
+        background-color: #8fc63d;
+    }
+    &__logo_elem3 {
+        width: 7px;
+        height: 29px;
+        border-radius: 4px;
+        background-color: #8fc63d;
+    }
+    &__title {
+        width: 168px;
+        
+        font-family: Nunito;
+        font-size: 31px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #595959;
+        align-self: flex-end;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    a {
+        text-decoration: none;
+        opacity: 0.67;
+        color: #666666;
+        font-family: "Open Sans - Semibold";
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 47px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: .3s all;
+        &:hover {
+            color: black;
+        }
+    }
+
+    &__btn {
+        width: 100px;
+        height: 37px;
+        background-color: #add136;
+        border: none;
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: "Open Sans - Semibold";
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 5px;
+        transition: .5s all;
+        &:hover {
+            background-color: #8fc63d;
+        }
+    }
+}
