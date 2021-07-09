@@ -1,0 +1,12 @@
+.footer {
+    min-height: 197px;
+    padding: 45px 0 25px 0;
+    &__copyright {
+        margin-top: 69px;
+        color: #848484;
+        font-family: "Open Sans";
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
