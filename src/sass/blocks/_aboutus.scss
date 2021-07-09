@@ -4,7 +4,11 @@
     &__img {
         img {
             display: block;
+            width: 58px;
+            height: 58px;
             margin: 0 auto;
+            object-fit: cover;
+            
         }
     }
 

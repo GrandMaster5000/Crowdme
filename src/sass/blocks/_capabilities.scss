@@ -6,7 +6,8 @@
     }
     &__cover {
         display: grid;
-        grid-template-columns: 43px 100%;
+        grid-template-columns: 43px 72%;
+        column-gap: 29px;
     }
     &__divider {
         border: none;
@@ -71,6 +72,14 @@
         }
         &[data-text='3'] {
             display: none;
+        }
+    }
+
+    &__img {
+        img{
+            width: 113px;
+            height: 102px;
+            object-fit: cover;
         }
     }
     
