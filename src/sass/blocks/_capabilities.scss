@@ -12,9 +12,6 @@
     &__divider {
         border: none;
         margin-top: 25px;
-        &.active{
-            border: 1px solid #add136;
-        }
     }
 
     &__circle {
@@ -28,9 +25,6 @@
         font-weight: 400;
         text-align: center;
         line-height: 42px;
-        &.active {
-            background-color: #add136;
-        }
     }
 
     &__title {
@@ -64,13 +58,13 @@
     }
     &__text-wrapper {
         transform: translateY(-25px);
-        &[data-text='1'] {
+        &[data-text='simple'] {
             display: block;
         }
-        &[data-text='2'] {
+        &[data-text='transparent'] {
             display: none;
         }
-        &[data-text='3'] {
+        &[data-text='collaborative'] {
             display: none;
         }
     }
@@ -82,5 +76,18 @@
             object-fit: cover;
         }
     }
+    &__tab {
+        cursor: pointer;
+        
+        &.active {
+            .capabilities__circle {
+                background-color: #add136;
+            }
+            .capabilities__divider {
+                border: 1px solid #add136;
+            }
+        }
+    }
     
+
 }

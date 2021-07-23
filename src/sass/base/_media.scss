@@ -52,7 +52,7 @@
         a {
             font-size: 11px;
         }
-        &__btn {
+        .login-btn {
             margin-left: 10px;
         }
     }
@@ -116,7 +116,7 @@
         &__nav {
             display: none;
         }
-        &__btn {
+        .login-btn {
             display: none;
         }
     }
@@ -197,6 +197,9 @@
         &__massege {
             width: 233px;
         }
+    }
+    .hamburger {
+        display: block;
     }
 }
 @media (max-width:576px) {

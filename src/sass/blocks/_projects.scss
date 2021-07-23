@@ -35,6 +35,7 @@
         font-size: 15px;
         font-weight: 400;
         align-self: center;
+        cursor: pointer;
     }
     &__wrapper-cards {
         display: grid;
@@ -166,6 +167,7 @@
         border: 10px solid transparent;
         border-left: 14px solid#add136;
         margin-left: 12px;
+        cursor: pointer;
     }
 
     &__img {

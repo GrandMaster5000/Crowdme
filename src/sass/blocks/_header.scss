@@ -71,25 +71,4 @@
             color: black;
         }
     }
-
-    &__btn {
-        width: 100px;
-        height: 37px;
-        background-color: #add136;
-        border: none;
-        border-radius: 50px;
-        color: #ffffff;
-        font-family: "Open Sans";
-        font-size: 13px;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: normal;
-        text-align: center;
-        text-transform: uppercase;
-        margin-top: 5px;
-        transition: .5s all;
-        &:hover {
-            background-color: #8fc63d;
-        }
-    }
 }
